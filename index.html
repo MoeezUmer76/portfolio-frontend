@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moeez Umer | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <h2>MZ</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home">
+    <div class="container hero-grid">
+
+      <!-- LEFT CONTENT -->
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Moeez Umer</span></h1>
+        <p>
+          BSCS student & software developer focused on building scalable
+          applications, AI-powered systems, and clean UI experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <!-- RIGHT PROFILE IMAGE -->
+      <div class="profile-wrapper">
+        <img src="images/profile.png" alt="Moeez Umer">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container about-grid">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I am a BSCS student with a strong interest in software engineering,
+          artificial intelligence, and game development. I enjoy transforming
+          ideas into real-world applications using modern technologies.
+        </p>
+      </div>
+
+      <div class="about-box">
+        <h4>Focus Areas</h4>
+        <ul>
+          <li>Full-Stack Development</li>
+          <li>AI & Neural Networks</li>
+          <li>Game Development</li>
+          <li>System Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section id="stats">
+    <div class="container stats">
+      <div>
+        <h3>10+</h3>
+        <p>Projects</p>
+      </div>
+      <div>
+        <h3>3+</h3>
+        <p>Years Coding</p>
+      </div>
+      <div>
+        <h3>5+</h3>
+        <p>Domains</p>
+      </div>
+      <div>
+        <h3>1000+</h3>
+        <p>Hours Practice</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+
+      <div class="skills">
+        <div class="skill">C++</div>
+        <div class="skill">Python</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">HTML & CSS</div>
+        <div class="skill">MERN Stack</div>
+        <div class="skill">AI / ML</div>
+        <div class="skill">SFML</div>
+        <div class="skill">Git & GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="projects">
+        <div class="project">
+          <h3>AI Legal Assistant</h3>
+          <p>AI-based assistant answering legal queries using NLP.</p>
+          <p><strong>Tech:</strong> Python, OpenAI, Gradio</p>
+          <a href="#">GitHub</a>
+        </div>
+
+        <div class="project">
+          <h3>SFML Solitaire Game</h3>
+          <p>Complete solitaire game with drag-and-drop mechanics.</p>
+          <p><strong>Tech:</strong> C++, SFML</p>
+          <a href="#">GitHub</a>
+        </div>
+
+        <div class="project">
+          <h3>Password Strength Checker</h3>
+          <p>Mobile app that evaluates password strength.</p>
+          <p><strong>Tech:</strong> Android, Java</p>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+
+      <form id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <!-- HONEYPOT FIELD (DO NOT REMOVE) -->
+        <input type="text" id="website" name="website" autocomplete="off" tabindex="-1" />
+
+        <button type="submit" id="submitBtn">
+          Send Message
+        </button>
+      </form>
+
+      <p id="formStatus" class="form-status"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
